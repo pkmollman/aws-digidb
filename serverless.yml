@@ -24,10 +24,8 @@ frameworkVersion: '3'
 provider:
   name: aws
   runtime: python3.9
-
-# you can overwrite defaults here
-#  stage: dev
-#  region: us-east-1
+  stage: prod
+  region: us-west-2
 
 # you can add statements to the Lambda function's IAM Role here
 #  iam:
